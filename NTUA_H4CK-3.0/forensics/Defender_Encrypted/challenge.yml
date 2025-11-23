@@ -1,0 +1,29 @@
+name: "Defender Encrypted"
+author: "vipolus"
+category: forensics
+description:  | 
+ "Some hours ago i saw a weird file in my Desktop that was unfamiliar. A few minutes later my important image with banner for NTUA_HACK 3.0 was encrypted. When i tried to read the weird file and see what happend Microsoft Defender sent the file to quarantine but I'm not able to get it back. Can you help me recover my important banner?"
+
+type: dynamic
+
+flags:
+    - NHACK{D3fend3r_S33ms_t0_be_do1ng_A_g00d_j0b}
+    - NH4CK{D3fend3r_S33ms_t0_be_do1ng_A_g00d_j0b}
+
+
+
+files:
+    - dist/Defender_Encrypted
+    - dist/NHACK_BANNER.txt.NHACK
+
+tags:
+
+hints:
+    #- {
+    #    content: "No hints.",
+    #    cost: 0
+    #}
+
+
+
+version: "0.1"

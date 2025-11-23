@@ -1,0 +1,28 @@
+name: "Saving Christmas 3"
+author: "vipolus"
+category: forensics
+description:  | 
+              This is part of the Saving Christmas forensics series. For this part you need to recover the important files that got encrypted.
+
+              Files same as Saving Christmas Part1
+
+type: dynamic
+
+flags:
+    - NHACK{d3cRypT1nG_a1nt_4lwAyS_Th1s_3aSy}
+    - NH4CK{d3cRypT1nG_a1nt_4lwAyS_Th1s_3aSy}
+
+requirements:
+    - "Saving Christmas 2"
+
+tags:
+
+hints:
+    #- {
+    #    content: "No hints.",
+    #    cost: 0
+    #}
+
+
+
+version: "0.1"

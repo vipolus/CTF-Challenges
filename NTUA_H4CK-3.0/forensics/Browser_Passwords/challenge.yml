@@ -1,0 +1,30 @@
+name: "Browser Passwords"
+author: "vipolus"
+category: forensics
+description:  | 
+          I forgot an important password that i use in a secret environment i must access. I remembered that i had save that password to my friend's chrome browser. When i informed them about that they told me that they couldn't retrieve the plaintext password but they read the other day an article saying that there is a way to get the plaintext of stored passwords in a browser. Sadly they didn't have time to do that for me so they sent me some files that will help me achieve that.
+
+type: dynamic
+
+flags:
+    - "NHACK{D3cRyPt1ng_Chr0m3_P4sSw0Rds_a1nt_th4T_H4rD}"
+    - "NH4CK{D3cRyPt1ng_Chr0m3_P4sSw0Rds_a1nt_th4T_H4rD}"
+
+
+
+files:
+    - dist/Local State
+    - dist/Login Data
+    - dist/mkey.json
+
+tags:
+
+hints:
+    #- {
+    #    content: "No hints.",
+    #    cost: 0
+    #}
+
+
+
+version: "0.1"

@@ -1,0 +1,30 @@
+name: "Saving Christmas 2"
+author: "vipolus"
+category: forensics
+description:  | 
+              This challenge consists of 3 parts. 
+
+              This is part of the Saving Christmas forensics series. For this part you need to look for any persistance the attacker managed to get in the system.
+
+              Files same as Saving Christmas Part1
+
+type: dynamic
+
+flags:
+    - "NHACK{Ch3k1nG_f0r_P3rs1sT4nC3_S33ms_4_G00d_0pt10N}"
+    - "NH4CK{Ch3k1nG_f0r_P3rs1sT4nC3_S33ms_4_G00d_0pt10N}"
+
+requirements:
+    - "Saving Christmas 1"
+
+tags:
+
+hints:
+    #- {
+    #    content: "No hints.",
+    #    cost: 0
+    #}
+
+
+
+version: "0.1"
